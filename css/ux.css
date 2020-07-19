@@ -12,6 +12,11 @@
     font-weight: normal;
     font-style: normal;
 }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 
 body{
@@ -19,17 +24,31 @@ body{
     padding: 0;
     height: 100%;
     width: 100%;
-    background-size: covers;
-    background-image: url('vf.jpg');
-    background-repeat: no-repeat;
     background-color: #1c1c1e;
-   
+    animation: amiya ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation: amiya ease 4s;
+ }
+ .bg{
+     background: url('vf.jpg') no-repeat 50% 50%; 
+     height: 100%;
+     width: 100%;
+     margin: auto;
+     display: table;
+     top: 0;
+     background-size: covers;
+
  }
  
 html {
+    scroll-behavior: smooth;
     box-sizing: border-box;
+    height: 100%;
+    width: 100%;
     
   }
+ 
   .home{
     position: absolute;
     top: 50%;
@@ -49,6 +68,7 @@ html {
     pointer-events: none;
     font-weight: 100;
     line-height: normal;
+    
 }
 .skills{
     color: #f2f2f2;
@@ -81,3 +101,33 @@ html {
     margin-bottom: 30px;
     
 }
+.navbar{
+    overflow: hidden;
+    margin:0;
+    padding: 0;
+    bottom: 20vh;
+    z-index: 100;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    float: left;
+    font-family: 'FuturaPTBook';
+    color: #f2f2f2;
+}
+
+@keyframes amiya { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
