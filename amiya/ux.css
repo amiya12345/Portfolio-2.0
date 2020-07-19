@@ -122,7 +122,15 @@ html {
     font-family: 'FuturaPTBook';
     color: #f2f2f2;
 }
-
+.intro{
+    animation-name: intro;
+}
+.duration{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
 
 @keyframes amiya { 
     0% { 
@@ -132,3 +140,26 @@ html {
         opacity: 1; 
     } 
 } 
+
+@keyframes intro {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  @-webkit-keyframes intro {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
