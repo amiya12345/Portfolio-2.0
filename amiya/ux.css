@@ -38,6 +38,7 @@ body{
      display: table;
      top: 0;
      background-size: covers;
+     position: relative;
 
  }
  
@@ -105,7 +106,7 @@ html {
     overflow: hidden;
     margin:0;
     padding: 0;
-    bottom: 20vh;
+    bottom: 10vh;
     z-index: 100;
     position: absolute;
     text-align: center;
@@ -116,11 +117,22 @@ html {
 }
 .navbar ul{
     list-style: none;
+    display: flex;
+    justify-content: center;
 }
 .navbar ul li{
     float: left;
     font-family: 'FuturaPTBook';
     color: #f2f2f2;
+    font-size: 1vw;
+    padding: 5px 3em;
+    text-indent: 0vw;
+
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #f2f2f2;
+  letter-spacing: 2px;
 }
 .intro{
     animation-name: intro;
@@ -130,6 +142,53 @@ html {
     animation-fill-mode: both;
     -webkit-animation-duration: 1s;
     -webkit-animation-fill-mode: both
+}
+.works{
+  margin: 32px;
+}
+.work_bg img{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.work_overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color:#f2f2f2;
+}
+.music_app:hover .work_overlay{
+  opacity: 0.8;
+  cursor: pointer;
+
+}
+.music_app:hover{
+  border-radius: 10px;
+}
+.work_bg{
+  position: relative;
+  
+}
+.work_head{
+  color: #1c1c1e;
+  font-family: 'FuturaPTBook';
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
 @keyframes amiya { 
@@ -161,5 +220,11 @@ html {
     to {
       opacity: 1;
       transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @media all and (max-width:650px){
+    .works{
+      margin: 16px;
     }
   }

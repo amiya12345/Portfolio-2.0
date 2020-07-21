@@ -3,6 +3,13 @@
     <head>
         <link rel="stylesheet" href="amiya/ux.css">
         <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <link rel="stylesheet" href="amiya/grid.css">
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <title>
              amiyaranjan.com
         </title>
@@ -12,7 +19,7 @@
         <section class="bg"><!-- amiya -->
         <div class="home"><!-- Heading section for name and skills-->
             <div class="greet">
-                Hi,I'M
+               <span> Hi</span>,I'M
             </div>
          <div class="name duration intro">
             Amiya Ranjan
@@ -25,18 +32,79 @@
 
          <div class="navbar"><!-- section for nav bar-->
             <ul class="navlist">
-                <li>WORKS</li>
-                <li>CODE</li>
-                <li>ABOUT</li>
+                <li> <a href="#wrk">WORKS</a></li>
+                <li><a href="">CODE</a></li>
+                <li><a href="">ABOUT</a></li>
             </ul>
 
          </div>
         </div>
         </section>
 
-         <div class="works"><!-- section for work grids-->
-             Amiya
+         <div class="works" id="wrk"><!-- section for work grids-->
+             <div class="music_app">
+                 <div class="work_bg">
+                     <img src="amiya/Cover.jpg">
+                     <div class="work_overlay" onclick="location.href='';">
+                         <div class="work_head">
+                             MUSIC APP DESIGN
+                        </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="sos_app">
+                <div class="work_bg">
+                    <img src="amiya/Cover.jpg">
 
-         </div>
+                    </div>
+
+             </div>
+             <div class="cono_app">
+                <div class="work_bg">
+                    <img src="amiya/Cover.jpg">
+                    </div>
+                    </div>
+             <div class="gro_app">
+                <div class="work_bg">
+                    <img src="amiya/Cover.jpg">
+                    </div>
+
+             </div>
+        </div><!--end of works grid-->
+
+        <div class="works" id="wrk"><!-- section for work grids-->
+            <div class="music_app">
+                <div class="work_bg">
+                    <img src="amiya/Cover.jpg">
+                    <div class="work_overlay" onclick="location.href='';">
+                        <div class="work_head">
+                            MUSIC APP DESIGN
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sos_app">
+               <div class="work_bg">
+                   <img src="amiya/Cover.jpg">
+
+                   </div>
+
+            </div>
+            <div class="cono_app">
+               <div class="work_bg">
+                   <img src="amiya/Cover.jpg">
+                   </div>
+                   </div>
+            <div class="gro_app">
+               <div class="work_bg">
+                   <img src="amiya/Cover.jpg">
+                   </div>
+
+            </div>
+       </div><!--end of works grid-->
+        
+        <script>
+            AOS.init();
+          </script>s
     </body>
 </html>
