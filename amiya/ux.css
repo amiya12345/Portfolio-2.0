@@ -16,6 +16,7 @@
 *:before,
 *:after {
   box-sizing: inherit;
+ 
 }
 
 
@@ -29,6 +30,7 @@ body{
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     -webkit-animation: amiya ease 4s;
+    
  }
  .bg{
      background: url('vf.jpg') no-repeat 50% 50%; 
@@ -101,19 +103,16 @@ html {
     font-weight: 100;
     margin-bottom: 30px;
     
-}
+} 
+
 .navbar{
-    overflow: hidden;
     margin:0;
-    padding: 0;
-    bottom: 10vh;
-    z-index: 100;
+    top: 0;
     position: absolute;
     text-align: center;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+
 }
 .navbar ul{
     list-style: none;
@@ -145,6 +144,7 @@ html {
 }
 .works{
   margin: 32px;
+  overflow: hidden;
 }
 .work_bg img{
   height: 100%;
@@ -169,8 +169,36 @@ html {
   cursor: pointer;
 
 }
+.cono_app:hover .work_overlay{
+  opacity: 0.8;
+  cursor: pointer;
+
+}
+.gro_app:hover .work_overlay{
+  opacity: 0.8;
+  cursor: pointer;
+
+}
+.sos_app:hover .work_overlay{
+  opacity: 0.8;
+  cursor: pointer;
+
+}
 .music_app:hover{
   border-radius: 10px;
+  transition-duration: 1s;
+}
+.cono_app:hover{
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+.gro_app:hover{
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+.sos_app:hover{
+  border-radius: 10px;
+  transition-duration: 1s;
 }
 .work_bg{
   position: relative;
@@ -227,4 +255,15 @@ html {
     .works{
       margin: 16px;
     }
+    .name{
+      font-family: 'FuturaPTLight';
+      font-size:5vw;
+      letter-spacing: 2.6vw;
+      text-transform: uppercase;
+      text-indent: 2.6vw;
+      pointer-events: none;
+      font-weight: 100;
+      line-height: normal;
+      
+  }
   }
