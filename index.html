@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width,intial-scale=1.0">
         <link rel="stylesheet" href="amiya/grid.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>
              amiyaranjan.com
         </title>
@@ -17,7 +17,7 @@
  
         <section class="bg"><!-- amiya -->
         <div class="home"><!-- Heading section for name and skills-->
-            <div class="greet">
+            <div class="greet duration intro">
                <span> Hi</span>,I'M
             </div>
          <div class="name duration intro">
@@ -32,7 +32,7 @@
          <div class="navbar"><!-- section for nav bar-->
             <ul class="navlist">
                 <li> <a href="#wrk">WORKS</a></li>
-                <li><a href="">CODE</a></li>
+                <li><a href="https://github.com/amiya12345">CODE</a></li>
                 <li><a href="">ABOUT</a></li>
             </ul>
 
@@ -89,21 +89,21 @@
         <!--end of works grid-->
         <div class="works" id="wrk"><!-- section for work grids-->
             <div class="music_app">
-                <div class="work_bg"  >
-                    <img src="amiya/rect.png">
+                <div class="work_bg">
+                    <img src="amiya/vf.jpg">
                     <div class="work_overlay" onclick="location.href='';">
                         <div class="work_head">
-                            MUSIC 
+                            PORTFOLIO
                        </div>
                     </div>
                 </div>
             </div>
             <div class="sos_app">
                <div class="work_bg">
-                   <img src="amiya/Desktop - 1.png">
+                   <img src="amiya/work-in-progress.jpg">
                    <div class="work_overlay" onclick="location.href='';">
                        <div class="work_head">
-                           OPEN SOURCE 
+                           WORK6
                       </div>
                    </div>
 
@@ -112,20 +112,20 @@
             </div>
             <div class="cono_app">
                <div class="work_bg">
-                   <img src="amiya/Cover.jpg">
+                   <img src="amiya/work-in-progress.jpg">
                    <div class="work_overlay" onclick="location.href='';">
                        <div class="work_head">
-                           SOS
+                           WORK7
                       </div>
                    </div>
                    </div>
                    </div>
             <div class="gro_app">
                <div class="work_bg">
-                   <img src="amiya/Insta Cover.png">
+                   <img src="amiya/work-in-progress.jpg">
                    <div class="work_overlay" onclick="location.href='';">
                        <div class="work_head">
-                           CONO
+                           WORK8
                       </div>
                    </div>
                    </div>
@@ -138,16 +138,26 @@
                Connect with me 
            </div>
           <div class="footer_menu">
+              <ul>
+                  <li> <a href=""><i class="fa fa-linkedin-square"></i></a> </li>
+                  <li> <a href=""><i class="fa fa-github-square"></i></a> </li>
+                  <li> <a href=""><i class="fa fa-behance-square"></i></a> </li>
+                  <li> <a href=""><i class="fa fa-facebook-square"></i></a> </li>
+                  <li> <a href=""><i class="fa fa-twitter-square"></i></a> </li>
+              </ul>
                 
+          </div>
+          <div class="author">
+      <span>Design & Develope by Amiya<span style="color: red;">&#9829;</span></span>
+
           </div>
       </div>
 
       <script>
-         
-			AOS.init({
-				easing: 'ease-out-back',
-				duration: 1000
+         $(function() {
+  AOS.init();
 });
+window.addEventListener('load', AOS.refresh)
 
       </script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

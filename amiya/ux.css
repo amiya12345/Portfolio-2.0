@@ -110,6 +110,10 @@ html {
     margin-bottom: 30px;
     
 } 
+.navlist{
+  float: right;
+  top:10vh;
+}
 
 .navbar{
     margin:0;
@@ -117,6 +121,7 @@ html {
     position: absolute;
     text-align: center;
     width: 100%;
+    top:5vh;
     
 
 }
@@ -138,6 +143,10 @@ html {
   text-decoration: none;
   color: #f2f2f2;
   letter-spacing: 2px;
+  transition: .6s;
+}
+.navbar ul li a:hover{
+  color:#1dd1a1;
 }
 .intro{
     animation-name: intro;
@@ -227,18 +236,50 @@ html {
 .ar_footer{
   width: 100%;
   height: 25%;
-  display: flex;
-  justify-content: center;
   background-color: #121212;
+  text-align: center;
 }
 .connect_footer{
   color: #f2f2f2;
   font-family: 'FuturaPTLight';
   font-size: 2vw;
   letter-spacing: 2px;
-  text-indent: 2px;
-  margin: 10px;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
 
+}
+
+.footer_menu ul li{
+ float: left;
+ list-style: none;
+ margin: 0 15px;
+}
+.footer_menu ul li .fa{
+ color: #f2f2f2;
+ font-size: 24px;
+ transition: 0.6s;
+}
+.footer_menu ul li .fa:hover{
+  color: #1dd1a1;;
+}
+
+.footer_menu ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+.author{
+  color: #f2f2f2;
+  font-family: 'FuturaPTLight';
+  font-size: 1vw;
+  letter-spacing: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @keyframes amiya { 
     0% { 
@@ -293,5 +334,11 @@ html {
   .skills{
     font-size: 2vw;
     letter-spacing: 4px;
+  }
+  .connect_footer{
+    font-size: 4vw;
+  }
+  .author{
+    font-size: 3vw;
   }
   }
