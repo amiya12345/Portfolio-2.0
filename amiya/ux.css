@@ -257,7 +257,7 @@ html {
     }
     .name{
       font-family: 'FuturaPTLight';
-      font-size:5vw;
+      font-size:7vw;
       letter-spacing: 2.6vw;
       text-transform: uppercase;
       text-indent: 2.6vw;
@@ -265,5 +265,12 @@ html {
       font-weight: 100;
       line-height: normal;
       
+  }
+  .greet{
+    font-size: 5vw;
+  }
+  .skills{
+    font-size: 2vw;
+    letter-spacing: 4px;
   }
   }
