@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-2.0",
+  "version": "1.0.0",
+  "description": "For my personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amiya12345/Portfolio-2.0-UI-UX-.git"
+  },
+  "author": "Amiya Ranjan Sethi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amiya12345/Portfolio-2.0-UI-UX-/issues"
+  },
+  "homepage": "https://github.com/amiya12345/Portfolio-2.0-UI-UX-#readme"
+}
