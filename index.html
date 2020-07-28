@@ -6,9 +6,16 @@
         <link rel="stylesheet" href="amiya/grid.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>
-             amiyaranjan.com
+             AR DESIGN - Portfolio of Amiya
         </title>
-    
+    <script type="text/javascript">
+     window.addEventListener("scroll", function(){
+         var header = document.querySelector("header");
+         header.classList.toggle("sticky",window.scrollY > 0);
+     })
+
+    </script>
+
             
        
     </head>
@@ -28,15 +35,14 @@
          </div>
          </div><!-- end of head-->
 
-         <div class="navbar"><!-- section for nav bar-->
+         <header><!-- section for nav bar-->
+            <a href="#" class="logo">AR.</a>
             <ul class="navlist">
                 <li> <a href="#wrk">WORKS</a></li>
                 <li><a href="https://github.com/amiya12345">CODE</a></li>
                 <li><a href="">ABOUT</a></li>
             </ul>
-
-         </div>
-        </div>
+            </header>
         </section>
 
          <div class="works" id="wrk"><!-- section for work grids-->
