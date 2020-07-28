@@ -112,7 +112,7 @@ html {
 } 
 .navlist{
   float: right;
-  top:10vh;
+  
 }
 
 .navbar{
@@ -136,7 +136,7 @@ html {
     color: #f2f2f2;
     font-size: 1vw;
     padding: 5px 3em;
-    text-indent: 0vw;
+    
 
 }
 .navbar ul li a{
@@ -344,5 +344,17 @@ html {
   .footer_menu ul li .fa{
     font-size: 20px;
   }
+  .footer_menu ul li{
+    margin: 0 10px;
+  }
+  .navbar ul li{
+    float: left;
+    font-family: 'FuturaPTBook';
+    color: #f2f2f2;
+    font-size: 3vw;
+    padding: 5px 3em;
+    
+
+}
 
   }
