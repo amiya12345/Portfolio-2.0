@@ -366,14 +366,12 @@ header ul li a:hover{
   .footer_menu ul li{
     margin: 0 10px;
   }
-  .navbar ul li{
+  header ul li{
     float: left;
     font-family: 'FuturaPTBook';
     color: #f2f2f2;
-    font-size: 3vw;
-    padding: 5px 3em;
-    
-
+    font-size: 2.5vw;
+    list-style: none;
+    position: relative;
 }
-
-  }
+}
