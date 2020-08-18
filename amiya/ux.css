@@ -185,6 +185,9 @@ header ul li a:hover{
   width: 100%;
   display: block;
 }
+.graphic{
+  margin: 32px;
+}
 
 .work_overlay{
   position: absolute;
@@ -375,6 +378,9 @@ header ul li a:hover{
     padding: 5px 3em;
     
 
+}
+.graphic{
+  margin: 16px;
 }
 
   }
