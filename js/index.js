@@ -5,3 +5,4 @@ window.addEventListener("scroll", function(){
 document.getElementById("name").innerHTML = "Amiya Ranjan";
 document.getElementById("skills").innerHTML=" UI/UX Designer | UI Developer";
 document.getElementById("other_works").innerHTML="OTHERS CREATIVE WORKS";
+
