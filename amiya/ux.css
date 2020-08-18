@@ -309,6 +309,7 @@ header ul li a:hover{
 }
 .others{
   margin: 32px;
+  background-color:#121212 ;
 }
 .others_head{
   font-family: 'FuturaPTLight';
@@ -319,6 +320,32 @@ header ul li a:hover{
   letter-spacing: 2px;
   text-indent: 2px;
   font-size: 1.5vw;
+
+ 
+}
+.others_nav ul li{
+  list-style: none;
+  float: left;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  font-family: 'FuturaPTBook';
+  font-size: 1vw;
+  letter-spacing: 2px;
+  text-indent: 2px;
+  position: relative; 
+  padding-right: 20px;
+  user-select: none;
+  white-space: nowrap;
+
+}
+.others_nav ul{
+  padding: 0;
+}
+
+.others_nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @keyframes amiya { 
     0% { 

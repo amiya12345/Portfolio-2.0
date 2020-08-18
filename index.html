@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width,intial-scale=1.0">
         <link rel="stylesheet" href="amiya/grid.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     
         
         <title>
              AR DESIGN - Portfolio of Amiya
@@ -133,13 +135,17 @@
          <div class="others_head">
              OTHER CREATIVE WORKS
          </div>
-         <div class="others_nav">
-             
+         <div class="others_nav" id="tab">
+             <ul>
+                 <li><a href="#tab_content1">3D MODELLING</a></li>
+                 <li><a href="#tab_content2">GRAPHIC DESIGN</a></li>
+                 <li><a href="#tab_content3">GENERATIVE ART</a></li>
+             </ul>
          </div>
      </div>
 
      </div>
-       <div class="graphic">
+       <div class="graphic" id="tab_content1">
            <div class="graphic1">
                 <img src="amiya/ARD.png">
            </div>
@@ -165,6 +171,59 @@
             <img src="amiya/ARD.png">
           </div>
        </div>
+       <div class="graphic" id="tab_content2" style="display: none;">
+        <div class="graphic1">
+             <img src="amiya/ARD.png">
+        </div>
+        <div class="graphic2">
+          <img src="amiya/untitled.png">
+        </div>
+        <div class="graphic3">
+         <img src="amiya/ARD.png">
+        </div>
+        <div class="graphic4">
+         <img src="amiya/untitled.png">
+        </div>
+        <div class="graphic5">
+         <img src="amiya/untitled.png">
+        </div>
+        <div class="graphic6">
+         <img src="amiya/ARD.png">
+       </div>
+       <div class="graphic7">
+         <img src="amiya/untitled.png">
+       </div>
+       <div class="graphic8">
+         <img src="amiya/ARD.png">
+       </div>
+    </div>
+    <div class="graphic" id="tab_content3" style="display: none;">
+        <div class="graphic1">
+             <img src="amiya/ARD.png">
+        </div>
+        <div class="graphic2">
+          <img src="amiya/untitled.png">
+        </div>
+        <div class="graphic3">
+         <img src="amiya/ARD.png">
+        </div>
+        <div class="graphic4">
+         <img src="amiya/untitled.png">
+        </div>
+        <div class="graphic5">
+         <img src="amiya/untitled.png">
+        </div>
+        <div class="graphic6">
+         <img src="amiya/ARD.png">
+       </div>
+       <div class="graphic7">
+         <img src="amiya/untitled.png">
+       </div>
+       <div class="graphic8">
+        
+       </div>
+    </div>
+
       <!--end of works grid-->
       <div class="ar_footer"><!-- section for social footer-->
            <div class="connect_footer">
@@ -188,5 +247,13 @@
           </div>
       </div>
       <script src="js/index.js"></script>
+      <script>
+        $("#tab a").click(function(e){
+        e.preventDefault();
+       $(".graphic").hide();
+       var toShow = $(this).attr('href');
+       $(toShow).show();
+       });
+    </script>
     </body>
 </html>
