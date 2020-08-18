@@ -303,7 +303,10 @@ header ul li a:hover{
   justify-content: center;
   align-items: center;
 }
-
+.graphic img{
+  height: 100%;
+  width: 100%;
+}
 @keyframes amiya { 
     0% { 
         opacity: 0; 
