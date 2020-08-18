@@ -307,6 +307,19 @@ header ul li a:hover{
   height: 100%;
   width: 100%;
 }
+.others{
+  margin: 32px;
+}
+.others_head{
+  font-family: 'FuturaPTLight';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2f2f2;
+  letter-spacing: 2px;
+  text-indent: 2px;
+  font-size: 1.5vw;
+}
 @keyframes amiya { 
     0% { 
         opacity: 0; 
@@ -340,9 +353,7 @@ header ul li a:hover{
   }
 
   @media all and (max-width:650px){
-    .works{
-      margin: 16px;
-    }
+  
     .name{
       font-family: 'FuturaPTLight';
       font-size:7vw;
@@ -364,7 +375,7 @@ header ul li a:hover{
   .connect_footer{
     font-size: 4vw;
   }
-  .author{
+  .author,.navbar ul li{
     font-size: 3vw;
   }
   .footer_menu ul li .fa{
@@ -377,13 +388,11 @@ header ul li a:hover{
     float: left;
     font-family: 'FuturaPTBook';
     color: #f2f2f2;
-    font-size: 3vw;
     padding: 5px 3em;
     
 
 }
-.graphic{
+.graphic,.others,.works{
   margin: 16px;
 }
-
-  }
+}

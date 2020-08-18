@@ -78,7 +78,21 @@
     grid-column: 10/13;
     grid-row: 5/9;
 }
-
+.others{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 32px 32px;
+    
+}
+.others_head{
+    grid-row: 1/2;
+    grid-column: 5/9;
+}
+.others_nav{
+    grid-row: 2/3;
+    grid-column: 5/9;
+}
 @media all and (max-width:650px){
     .works{
         display: grid;
