@@ -347,6 +347,23 @@ header ul li a:hover{
   align-items: center;
   justify-content: center;
 }
+.text_block{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background-color: #121212;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+  color: white;
+  font-family: 'FuturaPTLight';
+  font-size: 1.2vw;
+  justify-content: center;
+}
+.graphic1{
+  position: relative;
+}
 @keyframes amiya { 
     0% { 
         opacity: 0; 
