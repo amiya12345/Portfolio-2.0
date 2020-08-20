@@ -370,6 +370,9 @@ header ul li a:hover{
 .tabzoom{
   animation-name:tabzoom;
 }
+.tabslide{
+  animation-name: tabslide;
+}
 @keyframes tabzoom {
   from {
     opacity: 0;
@@ -393,6 +396,16 @@ header ul li a:hover{
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
   }
 
+}
+@keyframes tabslide{
+  from {
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 
