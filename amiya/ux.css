@@ -361,9 +361,24 @@ header ul li a:hover{
   font-size: 1.2vw;
   justify-content: center;
 }
-.graphic1{
+.graphic1,.graphic2,.graphic3,.graphic4,.graphic5,.graphic6,.graphic7,.graphic8{
   position: relative;
 }
+.tabanime{
+  animation-name:tabanime;
+}
+@keyframes tabanime {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 @keyframes amiya { 
     0% { 
         opacity: 0; 
