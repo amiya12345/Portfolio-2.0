@@ -338,6 +338,10 @@ header ul li a:hover{
   white-space: nowrap;
 
 }
+.others_nav ul li a{
+  color: #f2f2f2;
+
+}
 .others_nav ul{
   padding: 0;
 }
