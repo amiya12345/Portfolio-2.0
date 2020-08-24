@@ -497,4 +497,18 @@ transition-duration: 0.6s;
 .graphic,.others,.works{
   margin: 16px;
 }
+.others_nav ul li{
+  float: left;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  font-family: 'FuturaPTBook';
+  font-size: 2.5vw;
+  letter-spacing: 2px;
+  text-indent: 2px;
+  position: relative; 
+  padding-right: 10px;
+}
+.others_nav ul{
+  text-align:  center;
+}
 }

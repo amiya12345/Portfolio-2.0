@@ -156,7 +156,20 @@
         grid-column: 3/5;
         grid-row: 7/9;
     }
-    
+    .others{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 16px 16px;
+    }
+    .others_head{
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
+    .others_nav{
+        grid-row: 2/3;
+        grid-column: 1/5;
+    }
 }
 
 
