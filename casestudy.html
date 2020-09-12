@@ -14,8 +14,45 @@
        
     </head>
     <body>
+        <header><!-- section for nav bar-->
+            <a href="#" class="logo">AR.</a>
+            <ul class="navlist">
+                <li> <a href="index.html">WORKS</a></li>
+                <li><a href="https://github.com/amiya12345">CODE</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">RESUME</a></li>
+            </ul>
+            </header>
          <div class="casestudy">
-              
+              <div class="project_img">
+                   <img src="amiya/cover.png" style="height: 100%;width: 100%;">
+              </div>
+              <div class="project_tag">
+                  <div class="project_role">
+                       <p>Role: UX/UI Designer</p>
+                  </div>
+                  <div class="tags">
+                      <p>Tags: UX,UI,Safety App</p>
+
+                  </div>
+              </div>
+              <div class="project_about">
+                  <h2>About</h2>
+                  <p>
+                    Women’s safety has become a matter of prime concern in the present day. There is no resource more potent for growth than women’s empowerment. I, along with some of my batchmates, as a team, took part in a design sprint organized by DesignTab 
+                    — The Official Design Club of NIT Rourkela. As a team, we designed an SOS app and product for enhanced women security.
+                  </p>
+              </div>
          </div>
+         <script src="js/index.js"></script>
+         <script src="js/jquery.js"></script>
+         <script>
+           $("#tab a").click(function(e){
+           e.preventDefault();
+          $(".graphic").hide();
+          var toShow = $(this).attr('href');
+          $(toShow).show();
+          });
+       </script>
     </body>
 </html>

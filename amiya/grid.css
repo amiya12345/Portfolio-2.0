@@ -93,6 +93,28 @@
     grid-row: 2/3;
     grid-column: 4/10;
 }
+.casestudy{
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    column-gap:32px;
+}
+.project_img{
+    grid-column: 2/12;
+}
+.project_tag{
+    grid-column: 2/12;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
+.project_tag .project_role{
+     grid-column: 1/4;
+}
+.project_tag .tags{
+    grid-column: 4/11;
+}
+.project_about{
+    grid-column: 2/12;
+}
 @media all and (max-width:650px){
     .works{
         display: grid;

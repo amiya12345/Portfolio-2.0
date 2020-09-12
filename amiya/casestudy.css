@@ -1,0 +1,49 @@
+@font-face{
+    font-family: 'FuturaPTLight';
+    src:url('fonts/FuturaPTLight.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'FuturaPTBook';
+    src:url('fonts/FuturaPTBook.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+  font-family: 'FuturaPTMedium';
+  src:url('fonts/FuturaPTMedium.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1c1c1e;
+    animation: amiya ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation: amiya ease 4s;
+}
+.casestudy{
+    margin: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.project_about h2{
+    font-family: 'FuturaPTBook';
+    color: #f2f2f2;
+    letter-spacing: 1px;
+    font-size: 2vw;
+   
+}
+.project_about p{
+    font-family: 'FuturaPTLight';
+    color: #f2f2f2;
+    letter-spacing: 1px;
+   
+}
