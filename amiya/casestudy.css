@@ -34,16 +34,18 @@ body{
     margin-bottom: 0;
     
 }
-.project_about h2{
+.project_about h2,.project_problemstatements h2{
     font-family: 'FuturaPTBook';
     color: #f2f2f2;
     letter-spacing: 1px;
-    font-size: 2vw;
+    font-size:32px;
    
 }
-.project_about p{
+.project_about p,.project_problemstatements p{
     font-family: 'FuturaPTLight';
     color: #f2f2f2;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
+    font-size: 24px;
+    line-height: 130%;
    
 }
