@@ -34,14 +34,16 @@ body{
     margin-bottom: 0;
     
 }
-.project_about h2,.project_problemstatements h2{
+.project_about h2,.project_problemstatements h2,
+.project_team h2,.project_problemanalysis h2,.project_understandingtheusers h2{
     font-family: 'FuturaPTBook';
     color: #f2f2f2;
     letter-spacing: 1px;
     font-size:32px;
    
 }
-.project_about p,.project_problemstatements p{
+.project_about p,.project_problemstatements p,.project_team p,
+.project_problemanalysis p,.project_understandingtheusers p{
     font-family: 'FuturaPTLight';
     color: #f2f2f2;
     letter-spacing: 1.5px;
