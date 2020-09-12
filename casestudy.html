@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="amiya/grid.css">
         <link rel="stylesheet" href="amiya/casestudy.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <title>
              amiyaranjan.com
         </title>
@@ -44,7 +45,7 @@
                   </p>
               </div>
               <div class="project_problemstatements">
-                  <h2>Problem Statement</h2>
+                  <h2  data-aos="fade-right">Problem Statement</h2>
                   <p>
                     As a team, we had participated in the design sprint organized by DesignTab — The Official Design Club of NIT Rourkela. The sprint was held a day after the conduction of a session on The Basics of
                      UX Design and Design Sprint. The allotted problem statement to all the teams was:
@@ -63,7 +64,7 @@
                      — <a href="">Smithraj Karna</a>, Sai Swarup Mohanty, and Rama Kushna Behera. Each of us had relative expertise in different fields, thereby creating a diverse group for the sprint.
 
                   </p>
-                  <img src="amiya/Team Page.jpg" style="height:auto;width: 100%;">
+                  <img src="amiya/Team Page.jpg" style="height:auto;width: 100%;" data-aos="fade-left">
                   
               </div>
               <div class="project_problemanalysis">
@@ -80,12 +81,54 @@
                       numerous team discussions, we were able to understand who would be the primary stakeholder for our solution.
                        After this, we categorized various users with similar traits into different user groups.
                 </p>
+                   <div style="display: flex;justify-content: center;">
+                  <img src="amiya/User Groups.png" style="height:auto;width:auto;">
+                </div> 
+              </div>
+              <div class="project_painpoints">
+                  <h2>
+                    Pain Points
+
+                  </h2>
+                  <p>
+                    Understanding the users helped us in understanding the pain points better. We were able to get a clearer insight into what were the major problems
+                     that they were facing and what could be the real reason behind them. The pain points were:
+                  </p>
+                  <div style="display: flex; justify-content: center;">
+                  <img src="amiya/Problems Faced.png" style="height: auto;width: auto;">
+                </div>
 
               </div>
-             
+             <div class="project_persona">
+                 <h2>
+                    User Personas
+                 </h2>
+                 <p>
+                    We developed personas representing various user groups, highlighting their frustrations and needs. The user personas
+                     helped us empathize better with the target user, thereby helping us focus on a more user-centered design process.
+                 </p>
+                 <div style="display: flex; justify-content: center;">
+                    <img src="amiya/Persona 1.png" style="height: auto;width: auto;">
+                </div>
+                <div class="project_solution">
+                    <h2>Existing Solutions</h2>
+                    <p>
+                        We browsed through a range of existing solutions(related to this field) in the market. The existing solutions ranged from third-party apps to in-device programs.
+                         This phase helped us understand the shortcomings and advantages of various solutions and how we could improve upon those.
+                    </p>
+                  <div>
+                      <img src="amiya/Competitive Analysis.png" style="width: 100%;height: auto;">
+                  </div>
+                </div>
+
+             </div>
          </div>
          <script src="js/index.js"></script>
          <script src="js/jquery.js"></script>
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+         <script>
+            AOS.init();
+          </script>
          <script>
            $("#tab a").click(function(e){
            e.preventDefault();

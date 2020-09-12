@@ -121,9 +121,10 @@
 .project_team{
     grid-column: 2/12;
 }
-.project_problemanalysis,.project_understandingtheusers{
+.project_problemanalysis,.project_understandingtheusers,.project_painpoints,.project_persona,.project_solution{
     grid-column: 2/12;
 }
+
 @media all and (max-width:650px){
     .works{
         display: grid;
