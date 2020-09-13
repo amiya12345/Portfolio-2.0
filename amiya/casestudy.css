@@ -34,6 +34,10 @@ body{
     margin-bottom: 0;
     
 }
+.casestudy image{
+    height: 100%;
+    width:100%;
+}
 .project_about h2,.project_problemstatements h2,
 .project_team h2,.project_problemanalysis h2,.project_understandingtheusers h2,.project_painpoints h2,.project_persona h2,.project_solution h2{
     font-family: 'FuturaPTBook';
