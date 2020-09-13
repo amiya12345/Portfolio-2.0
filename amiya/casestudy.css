@@ -39,7 +39,8 @@ body{
     width:100%;
 }
 .project_about h2,.project_problemstatements h2,
-.project_team h2,.project_problemanalysis h2,.project_understandingtheusers h2,.project_painpoints h2,.project_persona h2,.project_solution h2{
+.project_team h2,.project_problemanalysis h2,
+.project_understandingtheusers h2,.project_painpoints h2,.project_persona h2,.project_solution h2,.project_features h2,.project_sos h2{
     font-family: 'FuturaPTBook';
     color: #f2f2f2;
     letter-spacing: 1px;
@@ -48,11 +49,15 @@ body{
 }
 .project_about p,.project_problemstatements p,.project_team p,
 .project_problemanalysis p,.project_understandingtheusers p,.project_painpoints p,.project_persona p,
-.project_solution p{
+.project_solution p,.project_features p,.project_sos p{
     font-family: 'FuturaPTLight';
     color: #f2f2f2;
     letter-spacing: 1.5px;
     font-size: 24px;
     line-height: 130%;
+    opacity: 0.8;
    
+}
+.project_features ul li{
+    color:#f2f2f2;
 }
