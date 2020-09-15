@@ -121,7 +121,8 @@
 .project_team{
     grid-column: 2/12;
 }
-.project_problemanalysis,.project_understandingtheusers,.project_painpoints,.project_persona,.project_solution,.project_features,.project_sos,.project_userflow{
+.project_problemanalysis,.project_understandingtheusers,.project_painpoints,.project_persona,
+.project_solution,.project_features,.project_sos,.project_userflow,.project_ia{
     grid-column: 2/12;
 }
 
