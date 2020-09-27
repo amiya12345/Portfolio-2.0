@@ -505,6 +505,7 @@ transition-duration: 0.6s;
 .graphic,.others,.works{
   margin: 16px;
 }
+
 .others_nav ul li{
   float: left;
   text-transform: uppercase;
