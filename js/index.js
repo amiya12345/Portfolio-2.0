@@ -3,6 +3,6 @@ window.addEventListener("scroll", function(){
     header.classList.toggle("sticky",window.scrollY > 0);
 })
 document.getElementById("name").innerHTML = "Amiya Ranjan";
-document.getElementById("skills").innerHTML=" UI/UX Designer | UI Developer";
+document.getElementById("skills").innerHTML=" Digital Product Designer";
 document.getElementById("other_works").innerHTML="OTHERS CREATIVE WORKS";
 
