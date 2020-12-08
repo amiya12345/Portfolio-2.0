@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/amiya12345/Portfolio-2.0-UI-UX-/issues"
   },
-  "homepage": "https://github.com/amiya12345/Portfolio-2.0-UI-UX-#readme"
+  "homepage": "https://github.com/amiya12345/Portfolio-2.0-UI-UX-#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
 }
