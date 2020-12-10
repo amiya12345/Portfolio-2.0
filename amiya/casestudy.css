@@ -85,3 +85,11 @@ body{
     font-size: 3vw;
     letter-spacing: 1px;
 }
+.svg_container{
+    display: inline-block;
+	position: relative;
+	width: 100%;
+	vertical-align: middle; 
+    overflow: hidden;
+    height: auto;
+}
