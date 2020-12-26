@@ -231,7 +231,7 @@
         grid-row: 2/3;
         grid-column: 1/5;
     }
-    .casestudy,.wireframe{
+    .casestudy,.wireframe,.project_tag{
         display: grid;
         grid-template-columns: repeat(4,1fr);
         column-gap: 16px;
@@ -239,7 +239,7 @@
     .project_problemanalysis,.project_understandingtheusers,.project_painpoints,.project_persona,
 .project_solution,.project_features,.project_sos,.project_userflow,.project_ia,.project_wireframe,
 .project_designsystem,.project_highfi,.project_prototype,.project_testing,.project_scope,.user_researchbar,.project_survey,.project_brainstroming,.wireframe1,.wireframe2
-.wireframe3,.wireframe4,.wireframe5{
+.wireframe3,.wireframe4,.wireframe5,.project_tag,.project_img,.project_problemstatements,.project_team,.project_about{
     grid-column: 1/5;
 }
 
