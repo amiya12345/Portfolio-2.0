@@ -373,6 +373,9 @@ header ul li a:hover{
 transition-duration: 0.6s;
 
 }
+.active a{
+   background-color: #1dd1a1;
+}
 
 .graphic1,.graphic2,.graphic3,.graphic4,.graphic5,.graphic6,.graphic7,.graphic8{
   position: relative;
