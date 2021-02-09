@@ -152,7 +152,16 @@
 .prototype2,.prototype4{
     grid-column: 7/13;
 }
+.ar_resume{
+    display: grid;
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    column-gap:32px;
 
+}
+.resume{
+    grid-column: 2/12;
+}
 
 @media all and (max-width:650px){
     .works{
