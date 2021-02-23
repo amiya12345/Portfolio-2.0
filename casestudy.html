@@ -24,10 +24,11 @@
        
     </head>
     <body>
+     
       <header><!-- section for nav bar-->
         <a href="#" class="logo">AR.</a>
         <ul class="navlist">
-            <li> <a href="#wrk">WORKS</a></li>
+            <li> <a href="index.html">HOME</a></li>
             <li><a href="https://github.com/amiya12345" target="_blank">CODE</a></li>
             <!-- <li><a href="">ABOUT</a></li> -->
             <li><a href="Resume.pdf" target="_blank">RESUME</a></li>
@@ -291,7 +292,9 @@
      <span>Design & Develope  with<span style="color: red;">&#9829;</span> by Amiya</span>
 
          </div>
+       
      </div>
+    
          <script src="js/index.js"></script>
          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
          <script >
@@ -304,7 +307,18 @@
           var toShow = $(this).attr('href');
           $(toShow).show();
           });
-          
+          $(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {    
+        $('#return-to-top').fadeIn(200);    
+    } else {
+        $('#return-to-top').fadeOut(200);  
+    }
+});
+$('#return-to-top').click(function() {  
+    $('body,html').animate({
+        scrollTop : 0                      
+    }, 500);
+});
 
 
        </script>
