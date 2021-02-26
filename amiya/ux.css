@@ -32,6 +32,10 @@ body{
     height: 100%;
     width: 100%;
     background-color: #1c1c1e;
+    animation: amiya ease 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation: amiya ease 6s;
 }
  .bg{
      background: url('scene.png'); 
