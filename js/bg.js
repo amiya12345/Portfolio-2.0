@@ -15,7 +15,7 @@ function setup()
 	canvas.style('z-index','-1');
  }
   function draw() {
-	background(0);
+	background('#121212');
 	translate(width / 2, height / 2);
 	rotate(radians(rot));
   
