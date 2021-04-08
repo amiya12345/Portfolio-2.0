@@ -126,6 +126,12 @@
 .project_designsystem,.project_highfi,.project_prototype,.project_testing,.project_scope,.user_researchbar,.project_survey,.project_brainstroming{
     grid-column: 2/12;
 }
+.project_next{
+    grid-column: 10/12;
+}
+.prv_project{
+    grid-column: 2/4;
+}
 .wireframe{
     display: grid;
     grid-template-columns: repeat(12,1fr);
