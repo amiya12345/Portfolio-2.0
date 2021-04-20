@@ -126,6 +126,7 @@
 .project_designsystem,.project_highfi,.project_prototype,.project_testing,.project_scope,.user_researchbar,.project_survey,.project_brainstroming{
     grid-column: 3/11;
 }
+
 .project_next{
     grid-column: 10/12;
 }

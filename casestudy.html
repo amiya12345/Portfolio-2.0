@@ -185,7 +185,7 @@
                     Based on the user research, we established two user groups(based on possession of smartwatch) — one who owned a smartwatch and another one included those who did not have a smartwatch. Based on a brief market analysis, it was discovered that good quality smartwatches tend to be costlier than a band.
                      To ensure that those who do not possess a smartwatch aren’t ignored, we came up with the concept of using a band.
                   </p>
-                 <img src="amiya/S.O.S App/product.webp" style="height: 100%;width: 100%;" data-aos="fade-left"  data-aos-duration="500" >
+                 <img src="amiya/S.O.S App/product.webp" style="height: 100%;width: 100%; grid-column:1/13;" data-aos="fade-left"  data-aos-duration="500" >
                 </div>
                 <div class="project_userflow">
                   <h2  data-aos="fade-right"> User Flow</h2>
@@ -330,7 +330,13 @@
           var toShow = $(this).attr('href');
           $(toShow).show();
           });
-          
+window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+
+        window.location.reload();
+    }
+}
        </script>
     </body>
 </html>
