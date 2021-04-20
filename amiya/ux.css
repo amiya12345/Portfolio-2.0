@@ -31,7 +31,7 @@ body{
     padding: 0;
     height: 100%;
     width: 100%;
-    background-color: #1c1c1e;
+    background-color:#1c1c1e;
     animation: amiya ease 6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -312,7 +312,7 @@ header ul li a:hover{
   background-color:#121212 ;
 }
 .others_head{
-  font-family: 'FuturaPTLight';
+  font-family: 'FuturaPTBook';
   display: flex;
   justify-content: center;
   align-items: center;
