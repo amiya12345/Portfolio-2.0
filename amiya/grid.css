@@ -106,11 +106,17 @@
     display: grid;
     grid-template-columns: repeat(10,1fr);
 }
-.project_tag .project_role{
-     grid-column: 1/4;
+.project_tag {
+     grid-column: 3/11;
 }
-.project_tag .tags{
-    grid-column: 4/11;
+.project_role{
+    grid-column: 1/4;
+}
+.tags{
+    grid-column: 4/7;
+}
+.timeline{
+    grid-column: 7/11;
 }
 .project_about{
     grid-column: 3/11;
