@@ -44,8 +44,9 @@ body{
 .project_scope h2,.project_survey h2,.project_brainstroming h2{
     font-family: 'FuturaPTBook';
     color: #f2f2f2;
-    letter-spacing: 2px;
+    letter-spacing:0.2em;
     font-size:32px;
+    text-transform: uppercase;
    
 }
 .project_problemstatements h3,.project_survey h3{
